@@ -25,12 +25,22 @@ namespace LinnWorksTestInterview.PageObjects
         public IWebElement nameInput => driver.FindElement(By.XPath("//input[@type='text']"));
         public IWebElement saveButton => driver.FindElement(By.XPath("//button[contains(text(),'Save')]"));
         public IList<IWebElement> tableItems => driver.FindElements(By.CssSelector(".table tr td"));
+        public IWebElement editInput => driver.FindElement(By.XPath("//input[@type='text']"));
 
         public void enterATokenInput(string token)
         {
             wait.Until(driver => tokenInput.Displayed);
             tokenInput.SendKeys(token);
             clickLogInButtonToken();
+        }
+        public string writeNameAndReturnANewOne(string name, string oldName)
+        {
+            wait.Until(driver => editInput.Displayed);
+            string newName = oldName + "_" + name;
+            editInput.Clear();
+            editInput.SendKeys(newName);
+            clickSaveButton();
+            return newName;
         }
         public void clickLogInButtonToken() => logInButtonTokenEnable.Click();
 
@@ -100,9 +110,20 @@ namespace LinnWorksTestInterview.PageObjects
             deleteButtonSpecificNameElement(name).Click();
             driver.SwitchTo().Alert().Accept();
         }
+        public void clickEditButtonSpecificName(string name)
+        {
+            editButtonSpecificNameElement(name).Click();
+        }
         public IWebElement deleteButtonSpecificNameElement(string name)
         {
             string xpath = "//*[contains(text(),'#NAME')]/..//td/a[contains(text(),'Delete')]";
+            return driver.FindElement(By.XPath((xpath).Replace("#NAME", name)));
+
+        }
+
+        public IWebElement editButtonSpecificNameElement(string name)
+        {
+            string xpath = "//*[contains(text(),'#NAME')]/..//td/a[contains(text(),'Edit')]";
             return driver.FindElement(By.XPath((xpath).Replace("#NAME", name)));
 
         }

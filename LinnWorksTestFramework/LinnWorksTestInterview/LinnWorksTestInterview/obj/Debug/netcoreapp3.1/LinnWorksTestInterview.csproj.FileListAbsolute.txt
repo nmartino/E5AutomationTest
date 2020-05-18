@@ -215,8 +215,9 @@ C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestI
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.csprojAssemblyReference.cache
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.AssemblyInfoInputs.cache
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.AssemblyInfo.cs
-C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.csproj.CoreCompileInputs.cache
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.csproj.CopyComplete
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.dll
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.pdb
 C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.genruntimeconfig.cache
+C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\nikol\Desktop\LinnworksTestFW\git\LinnWorksTestFramework\LinnWorksTestInterview\LinnWorksTestInterview\obj\Debug\netcoreapp3.1\LinnWorksTestInterview.csproj.CoreCompileInputs.cache

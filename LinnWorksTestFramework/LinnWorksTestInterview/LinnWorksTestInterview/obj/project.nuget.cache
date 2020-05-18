@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uWTbapvuQd4bK0tu5ElMDMQCQ8/OmpIPtgPQ0WZpIdyYoFJE+8mTtcLUlAwZfGXJ5YMnDpeZcLSzhQwOADCNNw==",
+  "dgSpecHash": "SOV60J7FIhB7rA+3Y5zXFgLOq62e9o3oUerlkNaq12Rc5MexrD/vwsVZ/3uk9AaOyho7m41qaQhM7PpghE6gKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
   "expectedPackageFiles": [
@@ -25,6 +25,7 @@
     "C:\\Users\\nikol\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\nikol\\.nuget\\packages\\restsharp\\106.11.3\\restsharp.106.11.3.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

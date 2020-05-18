@@ -11,15 +11,17 @@ using OpenQA.Selenium.Chrome;
 namespace LinnWorksTestInterview.Steps
 {
     [Binding]
-    public sealed class Test
+    public sealed class UITestStepsDefinition
     {
 
         BasePage basePage;
         IWebDriver driver;
         Random random = new Random();
         int rmd;
+        string newName;
+        string nameToLook;
 
-        [BeforeScenario]
+        [BeforeScenario("UI")]
         public void beforeScenario()
         {
             this.driver = new ChromeDriver();
@@ -77,7 +79,8 @@ namespace LinnWorksTestInterview.Steps
         public void WhenTheUserWriteANameAndClicksOnSave(string name)
         {
             rmd = random.Next(999);
-            basePage.middlePage().writeNameOnNameInput(name + "_" + rmd.ToString());
+            nameToLook = name + "_" + rmd.ToString();
+            basePage.middlePage().writeNameOnNameInput(nameToLook);
             basePage.middlePage().clickSaveButton();
         }
 
@@ -97,15 +100,34 @@ namespace LinnWorksTestInterview.Steps
         [Then(@"the new category should not be displayed in the list (.*)")]
         public void ThenTheNewCategoryShouldNotBeDisplayedInTheList(string name)
         {
-            string nameToLook = name + "_" + rmd.ToString();
+            nameToLook = name + "_" + rmd.ToString();
             basePage.middlePage().tableIsDisplayed().Should().BeTrue();
             basePage.middlePage().checkIfNameIsDisplayedOnTable(nameToLook).Should().BeFalse();
+        }
+
+        [When(@"the user clicks on Edit button of the new Category (.*)")]
+        public void WhenTheUserClicksOnEditButtonOfTheNewCategory(string name)
+        {
+            basePage.middlePage().clickEditButtonSpecificName(name + "_" + rmd.ToString());
+        }
+
+        [When(@"the user changes the name of the category '(.*)'")]
+        public void WhenTheUserChangesTheNameOfTheCategory(string name)
+        {
+            newName = basePage.middlePage().writeNameAndReturnANewOne(name, nameToLook);
+        }
+
+        [Then(@"The category is displayed with the new name")]
+        public void ThenTheCategoryIsDisplayedWithTheNewName()
+        {
+            basePage.middlePage().checkIfNameIsDisplayedOnTable(newName).Should().BeTrue();
         }
 
 
 
 
-        [AfterScenario]
+
+        [AfterScenario("UI")]
         public void afterScenario()
         {
             if (this.driver != null)
