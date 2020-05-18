@@ -17,7 +17,7 @@ namespace LinnWorksTestInterview.PageObjects
             this.driver = driver;
         }
 
-        public IWebElement tokenInput => driver.FindElement(By.CssSelector("#token"));
+        public IWebElement tokenInput => driver.FindElement(By.Id("token"));
         public IWebElement logInButtonTokenEnable => driver.FindElement(By.XPath("//*[@type='submit']"));
         public IWebElement alertText => driver.FindElement(By.CssSelector(".alert li"));
         public IWebElement categoriesTitle => driver.FindElement(By.XPath("//h1[contains(text(),'Categories')]"));

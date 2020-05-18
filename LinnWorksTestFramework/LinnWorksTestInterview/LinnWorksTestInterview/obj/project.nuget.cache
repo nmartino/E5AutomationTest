@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UhLA0s6BbYR5CkBy/Vz5q5RRkLzEGRXMFZZyiPLkzXdtexAWW537z08zXDMEkyfYfIgz6an+nJARDfpH5+1efg==",
+  "dgSpecHash": "uWTbapvuQd4bK0tu5ElMDMQCQ8/OmpIPtgPQ0WZpIdyYoFJE+8mTtcLUlAwZfGXJ5YMnDpeZcLSzhQwOADCNNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\a ver\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
+  "projectFilePath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikol\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
     "C:\\Users\\nikol\\.nuget\\packages\\cucumber.messages\\6.0.1\\cucumber.messages.6.0.1.nupkg.sha512",

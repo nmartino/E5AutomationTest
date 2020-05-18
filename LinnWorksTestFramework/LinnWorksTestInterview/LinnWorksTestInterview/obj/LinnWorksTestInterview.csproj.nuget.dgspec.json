@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\a ver\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj": {}
+    "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\a ver\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj": {
+    "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\a ver\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
+        "projectUniqueName": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
         "projectName": "LinnWorksTestInterview",
-        "projectPath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\a ver\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
+        "projectPath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\LinnWorksTestInterview.csproj",
         "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\a ver\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\obj\\",
+        "outputPath": "C:\\Users\\nikol\\Desktop\\LinnworksTestFW\\git\\LinnWorksTestFramework\\LinnWorksTestInterview\\LinnWorksTestInterview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

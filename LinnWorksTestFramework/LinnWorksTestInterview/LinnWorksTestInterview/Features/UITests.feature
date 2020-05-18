@@ -1,4 +1,4 @@
-﻿Feature: Tests
+﻿Feature: UITests
 	Test for the interview for LinnWorks
 
 @LinnkWorks
